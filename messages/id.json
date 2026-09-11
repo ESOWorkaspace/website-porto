@@ -1,0 +1,69 @@
+{
+  "site": {
+    "tagline": "CTO di PT Mesin Kantong Ajaib (Mantiq)"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "contact": "Kontak",
+    "skipToContent": "Lewati ke konten utama",
+    "mainNavLabel": "Navigasi utama"
+  },
+  "languageSwitcher": {
+    "label": "Pilih bahasa",
+    "id": "Bahasa Indonesia",
+    "en": "English",
+    "idShort": "ID",
+    "enShort": "EN"
+  },
+  "home": {
+    "expertiseHeading": "Area Keahlian",
+    "featuredHeading": "Proyek Unggulan",
+    "featuredViewAll": "Lihat semua proyek",
+    "ctaHeading": "Mari bicara",
+    "ctaBody": "Terbuka untuk diskusi soal AI automation, arsitektur sistem, dan infrastruktur self-hosted.",
+    "ctaButton": "Hubungi saya"
+  },
+  "about": {
+    "bioHeading": "Tentang Saya",
+    "educationHeading": "Pendidikan",
+    "experienceHeading": "Pengalaman",
+    "philosophyHeading": "Filosofi Kerja",
+    "skillsHeading": "Keahlian",
+    "certificationsHeading": "Sertifikasi",
+    "certificationIssuedBy": "Diterbitkan oleh",
+    "certificationDownload": "Unduh sertifikat (PDF)",
+    "certificationVerify": "Verifikasi sertifikat"
+  },
+  "projects": {
+    "heading": "Proyek",
+    "intro": "Daftar proyek yang sudah saya kerjakan, dijelaskan di level arsitektur dan hasil.",
+    "featuredBadge": "Unggulan",
+    "stackLabel": "Stack",
+    "roleLabel": "Peran",
+    "viewDetail": "Lihat detail",
+    "backToProjects": "Kembali ke daftar proyek",
+    "detailHeading": "Tentang proyek ini"
+  },
+  "contact": {
+    "heading": "Kontak",
+    "intro": "Cara paling cepat menghubungi saya adalah lewat email.",
+    "emailLabel": "Email",
+    "note": "Belum ada nomor telepon atau tautan media sosial untuk saat ini."
+  },
+  "footer": {
+    "rights": "Seluruh hak cipta dilindungi.",
+    "builtWith": "Dibangun dengan Next.js"
+  },
+  "common": {
+    "profilePhotoAlt": "Foto profil M. Mifthahul Amien",
+    "profilePhotoFallbackAlt": "Inisial M. Mifthahul Amien sebagai pengganti foto profil",
+    "breadcrumbLabel": "Breadcrumb"
+  },
+  "notFound": {
+    "heading": "Halaman tidak ditemukan",
+    "body": "Halaman yang kamu cari tidak ada atau sudah dipindahkan.",
+    "backHome": "Kembali ke beranda"
+  }
+}

@@ -1,0 +1,26 @@
+---
+title: "ERP Shared Core"
+slug: "erp-shared-core"
+summary: "Custom finance and ledger module architecture with double-entry bookkeeping, immutable posting, a reversal pattern, and polymorphic audit logging."
+stack:
+  - ERPNext
+  - PostgreSQL
+  - TypeScript
+role: "Architect & Lead Developer"
+featured: true
+order: 3
+---
+
+<!-- TODO: perlu ditulis ulang Amien -->
+<!-- CATATAN: daftar `stack` di frontmatter ini disusun Claude Code dari daftar keahlian di docs/05-content-brief.md §5, BUKAN dari data eksplisit per proyek. Mohon dikoreksi. -->
+
+Custom **finance** and **ledger** module architecture.
+
+The design rests on a few principles:
+
+- **Double-entry** — every transaction is recorded in pairs
+- **Immutable posting** — posted entries are never mutated
+- **Reversal pattern** — corrections go through reversing entries rather than edits
+- **Polymorphic audit log** — an audit trail that can attach to many kinds of entity
+
+[PLACEHOLDER: the problem this project solves, its context, and the outcome — no source material for this in docs/05-content-brief.md. Remember: no figures, client names, or metrics.]

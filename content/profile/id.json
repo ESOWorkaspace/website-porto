@@ -1,0 +1,119 @@
+{
+  "jobTitle": "CTO",
+  "headline": "Membangun sistem AI automation dan infrastruktur self-hosted di Bandung, Jawa Barat.",
+  "valueProposition": "Architect-Operator hybrid yang merancang SOP, pricing framework, dan arsitektur sistem — sekaligus turun langsung debugging sampai level kernel dan Docker internals. Berlatar Fisika dan 5+ tahun di IIoT, kini membangun sistem AI automation dan infrastruktur self-hosted dengan prinsip no vendor lock-in: klien memiliki penuh sistem mereka.",
+  "bio": [
+    "Saya M. Mifthahul Amien, CTO di PT Mesin Kantong Ajaib (Mantiq), berbasis di Bandung, Jawa Barat. Saya juga terlibat di AI Lab, R&D lab yang bersaudara dengan Mantiq.",
+    "Jalur saya berangkat dari sains dasar: S1 Fisika di Universitas Negeri Gorontalo. Dari sana saya masuk ke sistem industri — 5+ tahun di bidang IIoT (Industrial IoT), tempat sensor, perangkat, dan proses fisik harus bicara dengan perangkat lunak. Sekarang fokus saya ada di perangkat lunak: AI automation dan infrastruktur yang menjalankannya.",
+    "Di Mantiq saya memimpin pengembangan AI automation dan infrastruktur.",
+    "[PLACEHOLDER: satu paragraf penutup dari Amien — mis. apa yang sedang dikerjakan sekarang, atau jenis pekerjaan/kolaborasi yang dicari. Tidak ada bahan untuk ini di docs/05-content-brief.md.]"
+  ],
+  "education": [
+    {
+      "degree": "S1 Fisika",
+      "institution": "Universitas Negeri Gorontalo"
+    }
+  ],
+  "experience": [
+    "5+ tahun di bidang IIoT (Industrial IoT).",
+    "Saat ini CTO di PT Mesin Kantong Ajaib (Mantiq), memimpin pengembangan AI automation dan infrastruktur."
+  ],
+  "philosophy": [
+    "Architect-Operator hybrid. Saya merancang SOP, pricing framework, dan arsitektur sistem — sekaligus turun langsung debugging sampai level kernel dan Docker internals.",
+    "No vendor lock-in. Sistem dibangun supaya klien memiliki penuh sistem mereka, bukan menyewa akses ke sistem orang lain."
+  ],
+  "expertiseAreas": [
+    {
+      "title": "Backend & Infrastruktur",
+      "description": "Arsitektur layanan dengan NestJS dan Next.js, PostgreSQL/Supabase, serta stack self-hosted di atas Docker, Coolify, dan Traefik."
+    },
+    {
+      "title": "AI & LLM",
+      "description": "Integrasi OpenRouter, RAG dengan hybrid retrieval dan reranking, arsitektur multi-agent, dan pengembangan MCP server."
+    },
+    {
+      "title": "DevOps & Sistem",
+      "description": "Pengelolaan stack self-hosted, automated backup, dan isolasi database dev/prod."
+    },
+    {
+      "title": "Hardware & IIoT",
+      "description": "Access control fingerprint/RFID, face recognition, integrasi eKTP-as-RFID, dan perangkat berbasis Raspberry Pi."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend & Infrastruktur",
+      "items": [
+        "NestJS",
+        "Next.js (App Router)",
+        "PostgreSQL/Supabase (pgvector)",
+        "Prisma ORM",
+        "TypeScript",
+        "Docker",
+        "Coolify",
+        "Traefik",
+        "WireGuard",
+        "SeaweedFS",
+        "n8n",
+        "ERPNext"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "items": [
+        "OpenRouter integration",
+        "RAG (hybrid retrieval + reranking)",
+        "Arsitektur multi-agent",
+        "MCP server development"
+      ]
+    },
+    {
+      "category": "DevOps & Sistem",
+      "items": [
+        "Self-hosted stack management (60+ container via Coolify)",
+        "Automated backup",
+        "Isolasi database dev/prod"
+      ]
+    },
+    {
+      "category": "Hardware & IIoT",
+      "items": [
+        "Fingerprint/RFID access control",
+        "Face recognition (InsightFace)",
+        "Integrasi eKTP-as-RFID",
+        "Raspberry Pi"
+      ]
+    }
+  ],
+  "knowsAbout": [
+    "AI automation",
+    "Large language model integration",
+    "Retrieval-augmented generation",
+    "Multi-agent systems",
+    "Model Context Protocol",
+    "Backend architecture",
+    "Self-hosted infrastructure",
+    "DevOps",
+    "Industrial IoT",
+    "Access control systems"
+  ],
+  "certifications": [],
+  "meta": {
+    "home": {
+      "title": "M. Mifthahul Amien — CTO di Mantiq, Bandung",
+      "description": "M. Mifthahul Amien, CTO di PT Mesin Kantong Ajaib (Mantiq) Bandung. Membangun sistem AI automation dan infrastruktur self-hosted tanpa vendor lock-in."
+    },
+    "about": {
+      "title": "Tentang",
+      "description": "Profil M. Mifthahul Amien: latar S1 Fisika, 5+ tahun di IIoT, kini CTO di Mantiq yang memimpin pengembangan AI automation dan infrastruktur self-hosted."
+    },
+    "projects": {
+      "title": "Proyek",
+      "description": "Proyek yang dikerjakan M. Mifthahul Amien: AI agent untuk customer service, arsitektur ledger ERP, MCP server, sampai sistem akses berbasis hardware."
+    },
+    "contact": {
+      "title": "Kontak",
+      "description": "Hubungi M. Mifthahul Amien, CTO di Mantiq Bandung, lewat email untuk diskusi soal AI automation, arsitektur sistem, dan infrastruktur self-hosted."
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+
+/*
+ * Dark-first, minimal/teknis, satu warna aksen.
+ * Mengikuti prefers-color-scheme, tanpa toggle.
+ */
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  --color-bg: #0b0d10;
+  --color-surface: #13161b;
+  --color-border: #262b33;
+  --color-fg: #e8eaed;
+  --color-muted: #9aa3af;
+  --color-accent: #4fd1c5;
+  --color-accent-fg: #0b0d10;
+}
+
+/*
+ * Tailwind v4 memancarkan variabel @theme di :root, jadi light mode cukup
+ * menimpa variabel yang sama. `@theme` sendiri hanya boleh di top-level.
+ */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #ffffff;
+    --color-surface: #f6f7f9;
+    --color-border: #e2e5ea;
+    --color-fg: #14171c;
+    --color-muted: #5b636e;
+    --color-accent: #0f766e;
+    --color-accent-fg: #ffffff;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark light;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+/* Prosa untuk body MDX detail proyek. Ditulis manual, tanpa plugin typography. */
+.prose-mdx {
+  line-height: 1.75;
+}
+.prose-mdx > * + * {
+  margin-top: 1.15rem;
+}
+.prose-mdx h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2.25rem;
+  letter-spacing: -0.01em;
+}
+.prose-mdx h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+}
+.prose-mdx p,
+.prose-mdx li {
+  color: var(--color-muted);
+}
+.prose-mdx strong {
+  color: var(--color-fg);
+  font-weight: 600;
+}
+.prose-mdx ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.prose-mdx ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+.prose-mdx li + li {
+  margin-top: 0.4rem;
+}
+.prose-mdx a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-mdx code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.3rem;
+}

@@ -1,0 +1,120 @@
+{
+  "jobTitle": "CTO",
+  "headline": "Building AI automation systems and self-hosted infrastructure from Bandung, Indonesia.",
+  "valueProposition": "An architect-operator hybrid who designs SOPs, pricing frameworks, and system architecture — while still debugging down to kernel and Docker internals. With a physics background and 5+ years in industrial IoT, now building AI automation systems and self-hosted infrastructure on a no-vendor-lock-in principle: clients fully own their systems.",
+  "bio": [
+    "I'm M. Mifthahul Amien, CTO at PT Mesin Kantong Ajaib (Mantiq), based in Bandung, West Java, Indonesia. I'm also involved with AI Lab, Mantiq's sister R&D lab.",
+    "My path started in fundamental science: a Bachelor of Science in Physics from Universitas Negeri Gorontalo (State University of Gorontalo). From there I moved into industrial systems — 5+ years in industrial IoT, where sensors, devices, and physical processes have to talk to software. Today my focus sits in software: AI automation, and the infrastructure that runs it.",
+    "At Mantiq I lead the development of AI automation and infrastructure.",
+    "[PLACEHOLDER: a closing paragraph from Amien — e.g. what he is currently working on, or the kind of work and collaboration he is looking for. There is no source material for this in docs/05-content-brief.md.]"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Physics",
+      "institution": "Universitas Negeri Gorontalo",
+      "note": "State University of Gorontalo"
+    }
+  ],
+  "experience": [
+    "5+ years in industrial IoT (IIoT).",
+    "Currently CTO at PT Mesin Kantong Ajaib (Mantiq), leading the development of AI automation and infrastructure."
+  ],
+  "philosophy": [
+    "Architect-operator hybrid. I design SOPs, pricing frameworks, and system architecture — and still debug down to kernel and Docker internals.",
+    "No vendor lock-in. Systems are built so that clients fully own them, rather than renting access to somebody else's platform."
+  ],
+  "expertiseAreas": [
+    {
+      "title": "Backend & Infrastructure",
+      "description": "Service architecture with NestJS and Next.js, PostgreSQL/Supabase, and self-hosted stacks running on Docker, Coolify, and Traefik."
+    },
+    {
+      "title": "AI & LLM",
+      "description": "OpenRouter integration, RAG with hybrid retrieval and reranking, multi-agent architecture, and MCP server development."
+    },
+    {
+      "title": "DevOps & Systems",
+      "description": "Self-hosted stack management, automated backups, and dev/prod database isolation."
+    },
+    {
+      "title": "Hardware & IIoT",
+      "description": "Fingerprint and RFID access control, face recognition, eKTP-as-RFID integration, and Raspberry Pi devices."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend & Infrastructure",
+      "items": [
+        "NestJS",
+        "Next.js (App Router)",
+        "PostgreSQL/Supabase (pgvector)",
+        "Prisma ORM",
+        "TypeScript",
+        "Docker",
+        "Coolify",
+        "Traefik",
+        "WireGuard",
+        "SeaweedFS",
+        "n8n",
+        "ERPNext"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "items": [
+        "OpenRouter integration",
+        "RAG (hybrid retrieval + reranking)",
+        "Multi-agent architecture",
+        "MCP server development"
+      ]
+    },
+    {
+      "category": "DevOps & Systems",
+      "items": [
+        "Self-hosted stack management (60+ containers via Coolify)",
+        "Automated backup",
+        "Dev/prod database isolation"
+      ]
+    },
+    {
+      "category": "Hardware & IIoT",
+      "items": [
+        "Fingerprint/RFID access control",
+        "Face recognition (InsightFace)",
+        "eKTP-as-RFID integration",
+        "Raspberry Pi"
+      ]
+    }
+  ],
+  "knowsAbout": [
+    "AI automation",
+    "Large language model integration",
+    "Retrieval-augmented generation",
+    "Multi-agent systems",
+    "Model Context Protocol",
+    "Backend architecture",
+    "Self-hosted infrastructure",
+    "DevOps",
+    "Industrial IoT",
+    "Access control systems"
+  ],
+  "certifications": [],
+  "meta": {
+    "home": {
+      "title": "M. Mifthahul Amien — CTO at Mantiq, Indonesia",
+      "description": "M. Mifthahul Amien is CTO at PT Mesin Kantong Ajaib (Mantiq) in Bandung, Indonesia, building AI automation systems and self-hosted, vendor-neutral stacks."
+    },
+    "about": {
+      "title": "About",
+      "description": "About M. Mifthahul Amien: a physics graduate with 5+ years in industrial IoT, now CTO at Mantiq leading AI automation and self-hosted infrastructure work."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Projects by M. Mifthahul Amien, from customer service AI agents and custom ERP ledger architecture to MCP servers and hardware-based access control systems."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with M. Mifthahul Amien, CTO at Mantiq in Bandung, Indonesia, to talk about AI automation, system architecture, and self-hosted infrastructure."
+    }
+  }
+}
