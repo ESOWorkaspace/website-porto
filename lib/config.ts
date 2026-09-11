@@ -4,8 +4,10 @@
  * Lihat docs/04-technical-spec.md §5.
  */
 
+// `||` (bukan `??`) agar string kosong (mis. build arg Docker yang tidak diisi)
+// tetap jatuh ke fallback; `new URL('')` akan melempar TypeError saat build.
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'
+  process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 ).replace(/\/$/, '')
 
 export const AUTHOR_NAME = 'M. Mifthahul Amien'
